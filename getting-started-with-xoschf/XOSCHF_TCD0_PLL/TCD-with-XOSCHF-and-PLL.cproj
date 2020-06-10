@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
-    <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
+    <ProjectGuid>{23417cf7-d12c-4bbe-ba48-4e1c404626c1}</ProjectGuid>
     <avrdevice>AVR128DB48</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>AVR-DB_XOSCHF</AssemblyName>
-    <Name>AVR-DB_XOSCHF</Name>
-    <RootNamespace>AVR-DB_XOSCHF</RootNamespace>
+    <AssemblyName>TCD-with-XOSCHF-and-PLL</AssemblyName>
+    <Name>TCD-with-XOSCHF-and-PLL</Name>
+    <RootNamespace>TCD-with-XOSCHF-and-PLL</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -44,7 +44,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=avr128db48 -B "%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.22\gcc\dev\avr128db48"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=avr128db48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.1.44\gcc\dev\avr128db48"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -59,7 +59,7 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.22\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.1.44\include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -73,7 +73,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.22\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.1.44\include</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
 </AvrGcc>
@@ -82,7 +82,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=avr128db48 -B "%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.22\gcc\dev\avr128db48"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=avr128db48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.1.44\gcc\dev\avr128db48"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -97,7 +97,7 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.22\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.1.44\include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -112,7 +112,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.22\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.1.44\include</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
   <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
