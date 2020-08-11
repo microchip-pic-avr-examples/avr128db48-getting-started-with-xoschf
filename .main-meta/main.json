@@ -3,28 +3,24 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-getting-started-with-xoschf",
+        "version": "1.0.0",
+        "displayName": "Getting Started with External High-Frequency Oscillator on AVR DB",
+        "projectName": "avr128db48-getting-started-with-xoschf",
+        "shortDescription": "The External High-Frequency Oscillator (XOSCHF) enables the use of an external crystal or an external clock signal up to 32MHz. The Clock Failure Detection (CFD) feature can be used to detect if the output from a clock source stops and can switch the Main Clock to a different clock source to continue operation or shut down operation safely.  Getting Started with External High-Frequency Oscillator on AVR® DB (TB3272) show, together with these examples, how the XOSCHF and CFD is used on the AVR DB family of microcontrollers.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR-GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
-        },
-        "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": ">=1.2.56"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +28,28 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
+               "Device Family", "AVR DB"
             ],
             [
-               "Peripherals", ""
-            ]            			
+               "Development Board", "AVR128DB48 Curiosity Nano"
+            ]
         ],
         "peripherals": [
-            "",""
+            "CLKCTRL", "CFD", "XOSCHF"
         ],
         "keywords": [
-            "",
-            ""			
+            "Crystal",
+            "Oscillator",
+            "Clock",
+			"Clock Failure Detection",
+            "Getting Started"
         ],
 		"additionalData": {
 			"longDescription": {
