@@ -1,7 +1,7 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Getting Started with XOSCHF on AVR DB
+# Getting Started with External High-Frequency Oscillator on AVR DB
 
 The High Frequency Crystal Oscillator (XOSCHF) enables the use of an external crystal or an external clock signal up to 32MHz. This can be used as a clock source for the Main Clock (CLK_MAIN), the Real-Time Counter (RTC) and the 12-Bit Timer/Counter Type D (TCDn).
 
@@ -26,18 +26,18 @@ These examples show the following use cases for XOSCHF and CFD on the AVR DB fam
 
 ## Related Documentation
 
-* [ANxxxx - Getting Started with XOSCHF on AVR DB](https://microchip.com/DSxxxxxxxxxx) <!-- TODO: fill in AN and DS numbers once assigned-->
+* [TB3272 - Getting Started with External High-Frequency Oscillator on AVR DB](https://microchip.com/DS90003272A)
 * [AVR128DB48 Curiosity Nano User Guide](https://microchip.com/DSxxxxxxxxxx) <!-- TODO: Update link once assigned -->
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
 
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-Dx_DFP version 1.0.xx or later <!-- TODO: Update version once publicly released -->
+* Atmel Studio AVR-Dx_DFP version 1.2.56 or later
 
 ## Hardware Used
 
-* [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DMxxxxxx) <!-- TODO: Update when board page released -->
+* [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/EV35L43A)
 * Optional external clock source
 
 ## Setup
