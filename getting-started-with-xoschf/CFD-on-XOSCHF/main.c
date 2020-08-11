@@ -33,13 +33,13 @@ void CLOCK_CFD_XOSCHF_init(void);
 
 static inline void LED0_init(void)
 {
-	PORTF.DIRSET = PIN5_bm;
-	PORTF.OUTSET = PIN5_bm;
+	PORTB.DIRSET = PIN3_bm;
+	PORTB.OUTSET = PIN3_bm;
 }
 
 static inline void LED0_toggle(void)
 {
-	PORTF.OUTTGL = PIN5_bm;
+	PORTB.OUTTGL = PIN3_bm;
 }
 
 int main(void)

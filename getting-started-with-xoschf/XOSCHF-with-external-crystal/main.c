@@ -31,7 +31,7 @@ void CLOCK_XOSCHF_crystal_init(void);
 
 static inline void LED0_init(void)
 {
-	PORTF.DIRSET = PIN5_bm;
+	PORTB.DIRSET = PIN3_bm;
 }
 
 int main(void)
