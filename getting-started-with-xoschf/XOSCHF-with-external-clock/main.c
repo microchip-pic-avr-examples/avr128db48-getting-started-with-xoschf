@@ -50,7 +50,7 @@ int main(void)
 
 void CLOCK_XOSCHF_clock_init(void)
 {
-	/* Enable external (32MHz) clock input */
+	/* Enable external (32 MHz) clock input */
 	ccp_write_io((uint8_t *) &CLKCTRL.XOSCHFCTRLA, CLKCTRL_SELHF_EXTCLOCK_gc | CLKCTRL_ENABLE_bm);
 
 	/* Set Main Clock Prescaler */
@@ -65,6 +65,6 @@ void CLOCK_XOSCHF_clock_init(void)
 		;
 	}
 
-	/* Change complete and the main clock is 32 MHz / 2 = 16MHz */
+	/* Change complete and the main clock is 32 MHz / 2 = 16 MHz */
 }
 

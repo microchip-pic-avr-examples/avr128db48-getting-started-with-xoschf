@@ -58,14 +58,14 @@ int main(void)
 
 void CLOCK_XOSCHF_crystal_init(void)
 {
-	/* Enable crystal oscillator with frequency range 8MHz and 1K cycles startup time */
+	/* Enable crystal oscillator with frequency range 8 MHz and 1K cycles start-up time */
 	ccp_write_io((uint8_t *) &CLKCTRL.XOSCHFCTRLA, CLKCTRL_RUNSTDBY_bm
 	             | CLKCTRL_CSUTHF_1K_gc
 	             | CLKCTRL_FRQRANGE_8M_gc
 	             | CLKCTRL_SELHF_CRYSTAL_gc
 	             | CLKCTRL_ENABLE_bm);
 
-	/* Confirm crystal oscillator startup */
+	/* Confirm crystal oscillator start-up */
 	while(!(CLKCTRL.MCLKSTATUS & CLKCTRL_EXTS_bm))
 	{
 		;

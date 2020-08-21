@@ -69,7 +69,7 @@ void CLOCK_XOSCHF_crystal_init(void)
 	             | CLKCTRL_SELHF_CRYSTAL_gc
 	             | CLKCTRL_ENABLE_bm);
 
-	/* Confirm crystal oscillator startup */
+	/* Confirm crystal oscillator start-up */
 	while(!(CLKCTRL.MCLKSTATUS & CLKCTRL_EXTS_bm))
 	{
 		;
