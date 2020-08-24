@@ -1,4 +1,3 @@
-<!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 # Getting Started with External High-Frequency Oscillator on AVR DB
@@ -26,15 +25,15 @@ These examples show the following use cases for XOSCHF and CFD on the AVR DB fam
 
 ## Related Documentation
 
-* [TB3272 - Getting Started with External High-Frequency Oscillator on AVR DB](https://microchip.com/DS90003272A) <!-- TODO: Update link once assigned -->
+* [TB3272 - Getting Started with External High-Frequency Oscillator on AVR DB](https://microchip.com/DS90003272)
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 * AVR128DB48 Curiosity Nano User Guide (link will be added once available)
 
 ## Software Used
 
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-Dx_DFP version 1.2.56 or later
-* For the MPLAB X version of these projects, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-getting-started-with-xoschf-mplabx)
+* Atmel Studio AVR-Dx_DFP version 1.3.67 or later
+* For the MPLAB® X version of these projects, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-getting-started-with-xoschf-mplab)
 
 ## Hardware Used
 
