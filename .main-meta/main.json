@@ -23,7 +23,7 @@
             "semverRange": "^1.3.67"
         },
         "configurator": {
-        	"name": "Bare Metal",
+        	"name": "N/A",
             "semverRange": ""
         },
         "device": {
