@@ -1,12 +1,12 @@
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Getting Started with External High-Frequency Oscillator on AVR DB
+# Getting Started with External High-Frequency Oscillator on AVR® DB MCUs
 
 The High Frequency Crystal Oscillator (XOSCHF) enables the use of an external crystal or an external clock signal up to 32MHz. This can be used as a clock source for the Main Clock (CLK_MAIN), the Real-Time Counter (RTC) and the 12-Bit Timer/Counter Type D (TCDn).
 
 The Clock Failure Detection (CFD) feature can be used to detect if the output from a clock source stops and can switch the Main Clock to a different clock source to continue operation or shut down operation safely.
 
-These examples show the following use cases for XOSCHF and CFD on the AVR DB family of microcontrollers:
+These examples show the following use cases for XOSCHF and CFD on AVR® DB MCUs:
 
 * **XOSCHF with External Crystal**:
   Initialize XOSCHF for external crystal and change the main clock source to XOSCHF
