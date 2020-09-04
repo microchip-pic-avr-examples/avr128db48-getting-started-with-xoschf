@@ -27,7 +27,7 @@ These examples show the following use cases for XOSCHF and CFD on AVR® DB MCUs:
 
 * [TB3272 - Getting Started with External High-Frequency Oscillator on AVR DB](https://microchip.com/DS90003272)
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
-* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
+* [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 
 ## Software Used
 
